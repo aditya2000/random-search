@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+.searchBar {
+     margin-right: 5%;
+     margin-left: 5%;
+}
+
+.searchInput {
+    font-family: 'Raleway', sans-serif; 
+    width: 50%;  
+    height: 3em;
+    font-size: 15px;
+    border: 1px solid rgb(236, 233, 233);
+    box-shadow: 1px 2px rgb(248, 246, 246);
+    border-radius: 5px 0px 0px 5px;
+    border-right: none;
+    outline: none;
+    padding-left: 2em;
+}
+
+.searchButton {
+    font-family: 'Raleway', sans-serif; 
+    width: 5em;
+    height: 3.3em;
+    font-size: 15px;
+    border: 1px solid rgb(236, 233, 233);
+    border-radius: 0px 5px 5px 0px;
+    border-left: none;
+    color: rgb(83, 85, 85);
+    box-shadow: 1px 2px rgb(248, 246, 246);
+    background-color: white;
+    outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .searchInput {
+        font-family: 'Raleway', sans-serif; 
+        width: 70%; 
+        height: 2.5em;
+        font-size: 15px;
+        border: 1px solid rgb(236, 233, 233);
+        box-shadow: 1px 2px rgb(248, 246, 246);
+        border-radius: 5px 0px 0px 5px;
+        border-right: none;
+        outline: none;
+    }
+    .searchButton {
+        font-family: 'Raleway', sans-serif; 
+        height: 2.8em;
+        font-size: 15px;
+        border: 1px solid rgb(236, 233, 233);
+        border-radius: 0px 5px 5px 0px;
+        border-left: none;
+        color: rgb(83, 85, 85);
+        box-shadow: 1px 2px rgb(248, 246, 246);
+        background-color: white;
+        outline: none;
+    }
+}
+

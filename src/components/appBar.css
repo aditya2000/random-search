@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+
+.appBar {
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+    color: rgb(83, 85, 85);
+    margin-top: 0px;
+}

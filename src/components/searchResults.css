@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+
+.searchResults {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 25px;
+    background-color: cornsilk;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 5px;
+}
+
+.searchResults li {
+    list-style-type: none;
+    margin-top: 1em;
+}
